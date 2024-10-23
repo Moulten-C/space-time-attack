@@ -1,0 +1,16 @@
+Mon jeu s'appelle Starship Fighter
+Mon jeu est dans l'univers spatial
+Mon entité principale est un/une vaisseau spatial
+Mes entagonistes sont des vaisseaux spatiaux chasseurs
+Le décor est composé de d'étoiles et de nébuleuse(warp)
+
+Mon entité principale peut naviguer en x,y, se protéger avec un bouclier directionnel, ramasser des objets qui lui permetront de dash ou de se rendre invincible pdt x secondes
+
+Le comportement de mes entagonistes :    (machine à état : schéma)
+Quand le joueur bouge -> ennemis le suivent en tirant -> quand le joueur s'approche de l'ennemi, l'ennemi lui vole de la charge de bouclier -> quand le joueur entre en collision avec l'ennemi, l'ennemi le repousse et détruit son bouclier
+au bout de x temps -> le mode de tir de l'ennemi change
+au bout de x temps -> le vaisseau sort de l'écran et un nouveau vaisseau plus puissant et grand apparait X fois
+au bout de X fois -> un nouveau vaisseau arrive
+
+Je gagne quand le dernier vaisseau ennemi peri
+Je perd quand l'intégrité de la coque de mon vaisseau est à 0
